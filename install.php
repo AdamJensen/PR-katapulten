@@ -84,7 +84,7 @@ Trin to: Indtaste Titel, system e-mail, og databaseoplysning.<br><br>
 <td colspan="2" style="text-align:center">&nbsp;</td></td>
 </tr>
 <tr>
-<td colspan="2" style="text-align:center"><b>Databaseopsplysning</b></td></td>
+<td colspan="2" style="text-align:center"><b>Databaseoplysning</b></td></td>
 </tr><tr>
 <td width="150">Databasens vært :</td><td><input type='text' id='host' name='host' value=''></td>
 </tr>
