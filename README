@@ -1,0 +1,24 @@
+PR-katapulten - en kommunikationskanal-platform 
+
+Det forudsættes at I har en server med minimum-opsætningen:
+* Apache-server 2.2.14
+  *moduler:
+  curl
+  date
+  mysql
+  PHP version 5.3.2
+* Mysql-server 5.1.63
+  *med phpMyAdmin som webinterface
+
+Installation
+
+1. Upload mappen PR-katapulten til jeres server.
+2. Via jeres phpMyAdmin-interface opretter I en ny database med navnet prkatapult.
+3. Besøg jeres installation af PR-Katapulten på http://adressen-på-jeres-installation/install.php
+4. Følg vejledningen på skærmen og udfyld felterne med jeres info
+5. For at få systemet til at virke skal I besøge brugergrænseflæde for databasen og tilrette tabellen bruger til jeres krav: brugerinitialer, fornavn, efternavn og e-mail
+6. I mapperne mail/ og mail-red/ skal I indsætte modtagernes e-mails. 
+6. Nu skal I slette filerne install.php og install_done.php
+7. Thats's it! Nu kan I begynde at bruge PR-katapulten.
+
+Hvis I har forslag eller spørgsmål til PR-katapulten må I meget skrive til mig på adj at balk . dk
