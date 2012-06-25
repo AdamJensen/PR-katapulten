@@ -1,0 +1,832 @@
+body {
+font: 12px arial,sans-serif;
+color:#000;
+margin: 0px;
+}
+#extra {
+position: absolute; 
+top: 100px; 
+right: 50px; 
+border: none; 
+z-index: 100;
+display:none;
+overflow:hidden;
+background:#F01428;
+padding:10px;
+}
+#success{
+padding-left:10px;
+}
+
+#tekstbox {
+position: relative;
+display: block;
+width:420px;
+}
+
+#mid {
+color:#FFF;
+background:#333;
+width:500px;
+margin-left:200px;
+margin-top:100px;
+padding-left:100px;
+padding-right:50px;
+padding-top:50px;
+}
+
+#infoom {
+position: absolute; 
+top: 50px; 
+left: 50px; 
+right: 0;
+width: 350px; 
+border: none; 
+z-index: 50;
+display:block;
+overflow:auto;
+}
+
+#header {
+height: 55px;
+width:99%;
+background: #8a7a4d url('../img/logo.png') no-repeat 98% 45%;
+color:#FFF;
+font-size:40px;
+font-weight:bold;
+text-align:right;
+margin-bottom:20px;
+padding-top:15px;
+padding-right:10px;
+}
+
+#prkat a {
+color:#FFF;
+text-decoration:none;
+}
+
+#prkat {
+position:absolute;
+top:15px;
+left:20px;
+color:#FFF;
+}
+
+/*#prkat a {
+color:#FFF;
+text-decoration:none;
+}
+
+#prkat a .hover{
+color:#FFF;
+text-decoration:none;
+}
+
+#prkat a.active {
+color:#FFF;
+text-decoration:none;
+}
+
+#prkat a.visited {
+color:#FFF;
+text-decoration:none;
+}
+*/
+#footer{
+height: 65px;
+background: #8a7a4d;
+width:100%;
+color:#FFF;
+font-size:57px;
+font-weight:bold;
+position:relative;
+padding-left: 10px;
+bottom:0%;
+margin:0 0 0 0;
+}
+
+a {
+text-decoration:none;
+font-weight:bold;
+}
+
+#infoLeft {
+width:200px;
+display:block;
+padding-top:75px;
+padding-left:20px:
+}
+#inline {
+display:none;
+}
+
+
+#overskrift {
+font-size: 20px;
+font-weight: bold;
+}
+
+#visindhold {
+width:100%;
+line-height: 150%;
+font-size:12px;
+}
+
+#upload {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+#filvis{
+width:60px;
+height:60px;
+padding-right:5px;
+}
+
+#top_link{
+
+position:relative;
+bottom:25px;
+} 
+
+#top_link a{
+text-decoration: none;
+} 
+
+#klart {
+color:green;
+font-weight: bold;
+}
+#wrapper {
+width:100%;
+height:100%;
+}
+
+#plakatextra  {
+display: none;
+width:350px;
+}
+
+#infohjemmeside {
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#CCCCCC;
+
+}
+
+#infoenyhed {
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#CCCCCC;
+
+}
+
+#infobibnyt {
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#CCCCCC;
+}
+
+#infoinfoboard{
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#CCCCCC;
+}
+
+#infokultunaut {
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#F01428;
+}
+
+#infoblad{
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#F01428;
+}
+
+#infokigoglyt{
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#F01428;
+}
+
+#infofireaarstider {
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#CCCCCC;
+}
+
+#infoplakater {
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#CCCCCC;
+}
+
+#infobilletter {
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#CCCCCC;
+}
+
+#infokultur {
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#CCCCCC;
+}
+
+#infokomm{
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#F01428;
+
+}
+
+#inforadio {
+display: none;
+width:300px;
+color:#000;
+padding:10px;
+margin-top:5px;
+margin-bottom:5px;
+background:#F01428;
+}
+
+#info {
+display:block;
+padding-left:20px;
+float:left;
+width:300px;
+}
+
+#checkbox {
+display:block;
+float: right;
+width:300px;
+}
+
+
+#checkbox2 {
+display:block;
+float:right;
+}
+
+
+.deadlines {
+display:block;
+float:left;
+padding: 5px;
+border: 1px #000 dotted;
+width:400px;
+}
+
+#samlet {
+display:none;
+float:right;
+padding: 5px;
+border: 1px #000 dotted;
+width:450px;
+}
+
+#indhold_tabel {
+padding-left:50px;
+}
+
+#deadlines {
+display:block;
+float:left;
+padding: 5px;
+border: 0px #000 dotted;
+width:400px;
+}
+
+#dlines {
+display:none;
+width:400px;
+
+}
+
+#afsende{
+display:block;
+float:left;
+width:450px;
+}
+
+#arkiv{
+display:block;
+float:left;
+width:550px;
+}
+ .Button {
+ padding-left: 60px;
+ border: 0px red solid;
+ width:300px;
+ }
+
+#titel {
+display: none;
+width:50px;
+}
+
+#billetter {
+display: none;
+
+width:350px;
+}
+#tekst {
+display: none;
+margin-bottom:0px;
+width:550px;
+}
+
+#vedhaeft {
+display: none;
+float:left;
+width:350px;
+}
+
+#valgt {
+display:none;
+margin-bottom: 10px;
+}
+
+#tilhjemmeside {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+#tekst {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+#tilkultur
+{
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+
+
+
+
+#tilbibnyt {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+
+#tilenyhed {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+#tilkultunaut {
+display: none;
+margin-bottom:0px;
+width:350px;
+padding:10px;
+background:#F01428;
+}
+
+#tilinfoboard {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+#ballerupbladet{
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+#tilballerupbladet {
+display: none;
+margin-bottom:0px;
+padding:10px;
+width:350px;
+background:#F01428;
+}
+
+
+#tilkiglyt {
+display: none;
+margin-bottom:0px;
+width:350px;
+padding:10px;
+background:#F01428;
+}
+
+#fireaarstider{
+display: none;
+
+width:350px;
+}
+
+#til4aarstider {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+#plakater{
+display: none;
+
+width:350px;
+}
+
+#tilplakater {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+#billetter{
+display: none;
+width:350px;
+}
+
+#tilbilletter {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+#tilkommunen {
+display: none;
+margin-bottom:0px;
+padding:10px;
+width:350px;
+background:#F01428;
+}
+
+
+#tilradio {
+display: none;
+margin-bottom:0px;
+padding:10px;
+width:350px;
+background:#F01428;
+}
+
+#infoboard{
+display: none;
+
+width:350px;
+}
+
+#knap {
+display: none;
+width:350px;
+}
+#knap1 {
+display: none;
+width:350px;
+}
+
+#knap2 {
+display: none;
+width:350px;
+}
+
+#titel2 {
+display: none;
+width:350px;
+}
+
+
+#vedhaeft {
+display: none;
+	
+width:350px;
+}
+
+.deadline {
+font-size:11px;
+width:400px;
+}
+
+#bemark{
+font-size:11px;
+background:#333;
+color:red;
+padding:5px;
+width:400px;
+margin-top:5px;
+}
+
+#error{
+font-size:12px;
+background:#333;
+color:red;
+padding:5px;
+width:400px;
+margin-top:5px;
+margin-bottom:5px;
+}
+
+#okj{
+font-size:12px;
+background:#333;
+color:green;
+padding:5px;
+width:400px;
+margin-top:5px;
+}
+#afsendtbilletter {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+#afsendthjemmeside {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+
+#afsendtbibnyt {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+
+#afsendtenyhed {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+
+#afsendtkultunaut {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+
+#afsendtplakater {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+
+#afsendtballerupbladet {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+
+#afsendt4aarstider {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+
+#afsendtkiglyt {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+
+#afsendtinfoboard {
+display: none;
+margin-bottom:0px;
+width:350px;
+}
+
+
+#radiotekst {
+display: none;
+margin-bottom:0px;
+width:350px;
+
+/*date.picker*/
+
+
+
+table.jCalendar {
+	border: 1px solid #000;
+	background: #aaa;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+table.jCalendar th {
+	background: #333;
+	color: #fff;
+	font-weight: bold;
+	padding: 3px 5px;
+}
+
+table.jCalendar td {
+	background: #ccc;
+	color: #000;
+	padding: 3px 5px;
+	text-align: center;
+}
+table.jCalendar td.other-month {
+	background: #ddd;
+	color: #aaa;
+}
+table.jCalendar td.today {
+	background: #666;
+	color: #fff;
+}
+table.jCalendar td.selected {
+	background: #f66;
+	color: #fff;
+}
+table.jCalendar td.selected.dp-hover {
+	background: #f33;
+	color: #fff;
+}
+table.jCalendar td.dp-hover,
+table.jCalendar tr.activeWeekHover td {
+	background: #fff;
+	color: #000;
+}
+table.jCalendar tr.selectedWeek td {
+	background: #f66;
+	color: #fff;
+}
+table.jCalendar td.disabled, table.jCalendar td.disabled.dp-hover {
+	background: #bbb;
+	color: #888;
+}
+table.jCalendar td.unselectable,
+table.jCalendar td.unselectable:hover,
+table.jCalendar td.unselectable.dp-hover {
+	background: #bbb;
+	color: #888;
+}
+
+/* For the popup */
+
+/* NOTE - you will probably want to style a.dp-choose-date - see how I did it in demo.css */
+
+div.dp-popup {
+	position: relative;
+	background: #ccc;
+	font-size: 10px;
+	font-family: arial, sans-serif;
+	padding: 2px;
+	width: 171px;
+	line-height: 1.2em;
+}
+div#dp-popup {
+	position: relative;
+	z-index: 199;
+}
+div.dp-popup h2 {
+	font-size: 12px;
+	text-align: center;
+	margin: 2px 0;
+	padding: 0;
+}
+a#dp-close {
+	font-size: 11px;
+	padding: 4px 0;
+	text-align: center;
+	display: block;
+}
+a#dp-close:hover {
+	text-decoration: underline;
+}
+div.dp-popup a {
+	color: #000;
+	text-decoration: none;
+	padding: 3px 2px 0;
+}
+div.dp-popup div.dp-nav-prev {
+	position: relative;
+	top: 2px;
+	left: 4px;
+	width: 100px;
+}
+div.dp-popup div.dp-nav-prev a {
+	float: left;
+}
+/* Opera needs the rules to be this specific otherwise it doesn't change the cursor back to pointer after you have disabled and re-enabled a link */
+div.dp-popup div.dp-nav-prev a, div.dp-popup div.dp-nav-next a {
+	cursor: pointer;
+}
+div.dp-popup div.dp-nav-prev a.disabled, div.dp-popup div.dp-nav-next a.disabled {
+	cursor: default;
+}
+div.dp-popup div.dp-nav-next {
+	position: relative;
+	top: 2px;
+	right: 4px;
+	width: 100px;
+}
+div.dp-popup div.dp-nav-next a {
+	float: right;
+}
+div.dp-popup a.disabled {
+	cursor: default;
+	color: #aaa;
+}
+div.dp-popup td {
+	cursor: pointer;
+}
+div.dp-popup td.disabled {
+	cursor: default;
+}
+span.error { 
+display: none; 
+float: left; 
+color: #44ee44; 
+padding-left: 10px; 
+border:1px #000 solid;
+}
+
+/*Modal.vindue*/
+
+        #mask{
+        position:relative; /* important */
+        top:0px; /* start from top */
+        left:0px; /* start from left */
+        height:100%; /* cover the whole page */
+        width:100%;  /* cover the whole page */
+        display:none; /* don't show it '*/
+
+        /* styling bellow */
+        background-color: black;
+    }
+
+    .modal_window{
+        position:relative; /* important so we can position it on center later */
+        display:none; /* don't show it */
+
+        /* styling bellow */
+        color:white;
+    }
+
+    /* style a specific modal window  */
+    #modal_window{
+        padding:50px;
+        border:1px solid gray;
+        background: #246493;
+        color:black;
+    }
